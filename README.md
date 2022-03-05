@@ -24,9 +24,10 @@
     * React
     * React Router
     * Redux Toolkit
-	* Framer Motion
+    * Framer Motion
+    * Axios
 + **CSS**
- 	* Tailwind
+	* Tailwind
 + **Deployment**
  	* Heroku
 + **Database**
