@@ -12,7 +12,7 @@
 - You can access the backend of the application using the link: ```https://mozio-suppliers-backend.herokuapp.com```, but first you should read the documentation: ```https://mozio-suppliers-backend.herokuapp.com/docs/```
 - You can access the frontend of the application using the link:  ```https://mozio-suppliers-frontend.herokuapp.com/```
 
-####Used technologies
+#### Used technologies
                 
 + **Python**
     + Django
