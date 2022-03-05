@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@layer components {
+    .form-label {
+        @apply text-left text-white font-semibold text-xl mt-3;
+    }
+
+    .page-header {
+        @apply text-center text-custom-yellow font-bold text-2xl
+    }
+
+    .form-input {
+        @apply bg-custom-green-light px-2 py-4 font-semibold text-lg w-full h-7 outline-none
+        border-none text-white focus:text-black focus:bg-custom-green-lighter transition-all
+        ease-in-out duration-200 focus:w-[102%] focus:translate-x-[-1%]
+    }
+
+    .form-input::placeholder {
+        @apply font-medium text-custom-green-lighter text-lg
+    }
+
+    .form-select {
+        @apply bg-custom-green-light px-2 font-semibold text-lg w-full h-8 outline-none
+        border-none text-white focus:text-black focus:bg-custom-green-lighter transition-all
+        ease-in-out duration-200 focus:w-[102%] focus:translate-x-[-1%]
+    }
+
+    .form-button {
+        @apply bg-custom-green-light uppercase w-fit px-12 mx-auto py-1 text-white font-semibold text-base
+    }
+
+    .polygon-container {
+        @apply w-full my-1 bg-custom-green-dark text-custom-yellow uppercase font-semibold py-2
+    }
+
+    .polygon-point-container {
+        @apply my-1 bg-custom-green-dark text-white w-fit px-5 uppercase font-semibold py-1
+    }
+
+    .hint {
+        @apply w-fit mx-auto text-custom-yellow mt-6 font-semibold
+    }
+
+    /* ... */
+}
